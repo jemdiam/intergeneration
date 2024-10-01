@@ -1,3 +1,10 @@
+
+  :root {
+    --main-blue: #39819A; /* Define a root variable for primary color */
+    --main-yellow: #EAA557;
+  }
+
+
 body * {
     /* border: 1px solid red; */
 }
@@ -26,13 +33,13 @@ body * {
 .cta-section {}
 
 .footer-section {
-    background-color: #EAA557;
-    color: #39819A;
+    background-color: var(--main-yellow);
+    color: var(--main-blue);
 }
 
 .footer-section a {
   text-decoration: none;
-  color: #39819A;
+  color: var(--main-blue);
 }
 
 .footer-section a:hover {
