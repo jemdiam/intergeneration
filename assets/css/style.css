@@ -1,3 +1,7 @@
+body * {
+    border: 1px solid red;
+}
+
 .hero {
     height: 80vh;
     background-image: url('../images/hero-mobile2.png');
