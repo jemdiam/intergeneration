@@ -26,7 +26,17 @@ body * {
 .cta-section {}
 
 .footer-section {
-    background-color: #8AC1C1;
+    background-color: #EAA557;
+    color: #39819A;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #39819A;
+}
+
+.footer-section a:hover {
+  color: #4798A6;
 }
 
 .poster {
