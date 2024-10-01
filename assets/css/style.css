@@ -16,3 +16,48 @@ body * {
     text-align: center;
     padding-top: 50px;
 }
+
+.poster {
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    padding: 2rem;
+}
+
+.cta-section {
+    background-image: url(/assets/images/poster.png);
+    background-size: cover;
+    background-position: top;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+}
+
+.visible-text {
+    font-size: 20px;
+    color: white;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+  }
+  
+.visisble-eight-text {
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+  }
+
+
+  @media (min-width: 768px) {
+    .hero {
+    background-image: url('../images/hero-tablet2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .hero {
+    background-image: url('../images/hero-desktop2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+  }
