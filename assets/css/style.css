@@ -2,23 +2,31 @@ body * {
     /* border: 1px solid red; */
 }
 
-#footer {
-    background-color: #8AC1C1;
+.hero {
+  height: 80vh;
+  background-image: url('../images/hero-mobile2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
 }
 
-.hero {
-    height: 80vh;
-    background-image: url('../images/hero-mobile2.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    color: white;
-    text-align: center;
-    padding-top: 50px;
+.benefits-section {}
+
+.success-section {}
+
+.resources {}
+
+.cta-section {}
+
+.footer-section {
+    background-color: #8AC1C1;
 }
 
 .poster {
@@ -50,6 +58,14 @@ body * {
     border-image: linear-gradient(hsl(140 10% 30% / .3),
     hsl(0 100% 30% / .3))
     fill 1;
+  }
+
+  .page-not-found {
+    background-image: url('../images/poster.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
   }
 
 
