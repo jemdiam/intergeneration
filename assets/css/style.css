@@ -72,6 +72,10 @@ body {
   margin: auto;
   color: var(--main-yellow);
 }
+
+.main-blue {
+  color: var(--main-blue)
+}
 /* #endregion */
 /****************########################*****************/
 
@@ -120,11 +124,18 @@ body {
 /* #endregion */
 
 /* #SUCCESS - Quotes and success stories*/
-.success-section {}
+.success-section {
+  .success-section {
+    max-width: 80%;
+    margin: auto;
+  }
+}
 /* #endregion */
 
 /* #RESOURCES*/
-.resources {}
+.resources-container {
+  margin: 3rem auto;
+}
 /* #endregion */
 
 /* #CTA - Subscription section*/
@@ -188,6 +199,11 @@ body {
     background-repeat: no-repeat;
     justify-content: center;
   }
+
+  .success-section {
+    max-width: 50%;
+    margin: auto;
+  }
 }
 /* #endregion */
 
@@ -199,6 +215,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     justify-content: center;
+  }
+
+  .success-section {
+    max-width: 50%;
+    margin: auto;
   }
 }
 /* #endregion */
