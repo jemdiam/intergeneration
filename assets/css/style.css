@@ -107,10 +107,6 @@ body {
   padding-bottom: 2rem;
 }
 
-.benefits-header {
-  margin-top: ;
-}
-
 .benefits-item {
   margin: auto;
   max-width: 600px;
@@ -118,8 +114,8 @@ body {
   border-radius: 8px;
 }
 
-.benefits-text {
-  padding: 27px 0;
+.benefits-text, .benefits-text h3 {
+  padding: 1rem 0;
 }
 /* #endregion */
 
