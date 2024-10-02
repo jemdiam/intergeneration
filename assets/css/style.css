@@ -121,10 +121,16 @@ body {
 
 /* #SUCCESS - Quotes and success stories*/
 .success-section {
-  .success-section {
     max-width: 80%;
     margin: auto;
-  }
+}
+
+.success-section blockquote {
+  margin-bottom: 4rem;
+}
+
+.success-section blockquote:last-child {
+  margin-bottom: 2rem;
 }
 /* #endregion */
 
