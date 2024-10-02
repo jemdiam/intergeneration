@@ -189,6 +189,18 @@ body {
 /* #endregion */
 /****************########################*****************/
 
+/* #Joiun Us  */
+.join-us-container {
+  margin: 4rem auto 2rem;
+}
+.join-us-container iframe {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+/* #endregion */
+/****************########################*****************/
+
 /* #RESPONSIVE STYLES */
 /* #tablet styles */
 @media (min-width: 768px) {
