@@ -34,6 +34,10 @@ body {
   font-style: normal;
 }
 
+#logo-i {color: var(--main-blue);}
+
+#logo-g {color: var(--main-yellow);}
+
 .hero {
   height: 80vh;
   background-image: url('../images/hero-mobile2.png');
