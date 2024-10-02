@@ -198,7 +198,6 @@ body {
 
 }
 /* #endregion */
-/****************########################*****************/
 
 /* #JOIN US PAGE */
 .join-us-container {
@@ -210,7 +209,6 @@ body {
   margin: auto;
 }
 /* #endregion */
-/****************########################*****************/
 
 /* #ABOUT PAGE  */
 .about-section {
@@ -231,14 +229,19 @@ body {
   margin: auto;
 }
 
+.success-hr {
+  margin-bottom: 2rem;
+}
+
 .success-page-container blockquote p {
   font-weight: 400;
 }
 
 .success-page-container blockquote img {
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 /* #endregion */
+/****************########################*****************/
 
 /* #RESPONSIVE STYLES */
 /* #tablet styles */
