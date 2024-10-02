@@ -46,6 +46,15 @@ body * {
   color: #4798A6;
 }
 
+.header-underline {
+  width: 50%;
+  height: 3px;
+  border: none;
+  background-color: var(--main-yellow);
+  margin: auto;
+  color: var(--main-yellow);
+}
+
 .poster {
     width: 70%;
     height: 100%;
