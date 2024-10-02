@@ -1,9 +1,4 @@
-:root {
-  --main-blue: #39819A;
-  /* Define a root variable for primary color */
-  --main-yellow: #EAA557;
-}
-
+/* #GOOGLE FONT TYPEFACES*/
 .montserrat-ig {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -23,9 +18,18 @@
   font-weight: 100;
   font-style: normal;
 }
+/* #endregion */
 
-body * {
-  /* border: 1px solid red; */
+
+
+
+/* #UNIVERSAL STYLES*/
+
+/* Define a root variable for primary color */
+:root {
+  /* --main-blue: #39819A; */
+  --main-blue: #275f72;
+  --main-yellow: #EAA557;
 }
 
 body {
@@ -33,11 +37,48 @@ body {
   font-weight: 100;
   font-style: normal;
 }
+/* #endregion */
+/****************########################*****************/
+
+/* #ID's */
+/* #endregion */
+
+/* #CLASSES - Utility Classes*/
+
+/* old overlay */
+/* .overlay {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 15%;
+    padding: 1.2rem 2.2rem;
+    margin-top: 20rem;
+} */
+
+/* shorthand for border-image property 
+ * to achieve background image overlay */
+.overlay {
+  border-image: linear-gradient(hsl(140 10% 30% / .3),
+      hsl(0 100% 30% / .3)) fill 1;
+}
+
+.header-underline {
+  width: 35%;
+  height: 3px;
+  border: none;
+  background-color: var(--main-yellow);
+  margin: auto;
+  color: var(--main-yellow);
+}
+/* #endregion */
+/****************########################*****************/
+
+/* #HEADER SECTION - Navigation, logo, etc. */
+.nav-section {}
 
 #logo-i {color: var(--main-blue);}
-
 #logo-g {color: var(--main-yellow);}
+/* #endregion */
 
+/* #HERO SECTION */
 .hero {
   height: 80vh;
   background-image: url('../images/hero-mobile2.png');
@@ -52,15 +93,25 @@ body {
   text-align: center;
   padding-top: 50px;
 }
+/* #endregion */
 
+/* #BENEFITS SECTION*/
 .benefits-section {}
+/* #endregion */
 
+/* #SUCCESS - Quotes and success stories*/
 .success-section {}
+/* #endregion */
 
+/* #RESOURCES*/
 .resources {}
+/* #endregion */
 
+/* #CTA - Subscription section*/
 .cta-section {}
+/* #endregion */
 
+/* #FOOTER SECTION*/
 .footer-section {
   background-color: var(--main-yellow);
   color: var(--main-blue);
@@ -72,48 +123,17 @@ body {
 }
 
 .footer-section a:hover {
-  color: #4798A6;
+  color: #39819A;
 }
 
-.header-underline {
-  width: 35%;
-  height: 3px;
-  border: none;
-  background-color: var(--main-yellow);
-  margin: auto;
-  color: var(--main-yellow);
+.copyright-section {
+  display: flex;
+  justify-content: space-between;
 }
+/* #endregion */
+/****************########################*****************/
 
-.poster {
-  width: 70%;
-  height: 100%;
-  display: block;
-  margin: auto;
-  padding: 2rem;
-}
-
-.visible-text {
-  font-size: 20px;
-  color: white;
-  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
-}
-
-.visisble-eight-text {
-  text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
-}
-
-/* .overlay {
-    background-color: rgb(0, 0, 0, 0.6);
-    border-radius: 15%;
-    padding: 1.2rem 2.2rem;
-    margin-top: 20rem;
-  } */
-
-.overlay-2 {
-  border-image: linear-gradient(hsl(140 10% 30% / .3),
-      hsl(0 100% 30% / .3)) fill 1;
-}
-
+/* #404 PAGE - Not found Page*/
 .page-not-found {
   background-image: url('../images/poster.png');
   background-size: cover;
@@ -121,8 +141,10 @@ body {
   background-repeat: no-repeat;
   height: 50vh;
 }
+/* #endregion */
+/****************########################*****************/
 
-
+/* #RESPONSIVE STYLES */
 @media (min-width: 768px) {
   .hero {
     background-image: url('../images/hero-tablet2.png');
@@ -140,3 +162,4 @@ body {
     background-repeat: no-repeat;
   }
 }
+/* #endregion */
