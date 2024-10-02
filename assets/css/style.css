@@ -52,7 +52,7 @@ body {
   height: 3px;
   border: none;
   background-color: var(--main-yellow);
-  margin: auto;
+  margin: 1rem auto;
   color: var(--main-yellow);
 }
 
