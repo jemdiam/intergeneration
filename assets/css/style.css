@@ -1,21 +1,7 @@
 /* #GOOGLE FONT TYPEFACES*/
 .montserrat-ig {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
-  font-style: normal;
-}
-
-.oswald-ig {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.roboto-thin {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
   font-style: normal;
 }
 /* #endregion */
