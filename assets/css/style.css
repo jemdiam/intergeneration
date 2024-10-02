@@ -49,14 +49,6 @@ body {
 
 /* #CLASSES - Utility Classes*/
 
-/* old overlay */
-/* .overlay {
-    background-color: rgb(0, 0, 0, 0.6);
-    border-radius: 15%;
-    padding: 1.2rem 2.2rem;
-    margin-top: 20rem;
-} */
-
 /* shorthand for border-image property 
  * to achieve background image overlay */
 .overlay {
@@ -74,7 +66,11 @@ body {
 }
 
 .main-blue {
-  color: var(--main-blue)
+  color: var(--main-blue);
+}
+
+.main-yellow {
+  color: var(--main-yellow);
 }
 /* #endregion */
 /****************########################*****************/
@@ -189,9 +185,9 @@ body {
 /* #endregion */
 /****************########################*****************/
 
-/* #Joiun Us  */
+/* #JOIN US PAGE */
 .join-us-container {
-  margin: 4rem auto 2rem;
+  margin: 3rem auto 2rem;
 }
 .join-us-container iframe {
   display: block;
@@ -200,6 +196,33 @@ body {
 }
 /* #endregion */
 /****************########################*****************/
+
+/* #ABOUT PAGE  */
+.about-section {
+  max-width: 80%;
+}
+/* #endregion */
+
+/* #SUCCESS PAGE  */
+.success-page-container {
+  max-width: 70%;
+  margin-bottom: 5rem;
+}
+
+.success-page-container img {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.success-page-container blockquote p {
+  font-weight: 400;
+}
+
+.success-page-container blockquote img {
+  margin-top: 7rem;
+}
+/* #endregion */
 
 /* #RESPONSIVE STYLES */
 /* #tablet styles */
