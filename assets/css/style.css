@@ -30,6 +30,12 @@
   --main-yellow: #EAA557;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -95,6 +101,26 @@ body {
 
 /* #BENEFITS SECTION*/
 .benefits-section {}
+
+.benefits-container {
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.benefits-header {
+  margin-top: ;
+}
+
+.benefits-item {
+  margin: auto;
+  max-width: 600px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.benefits-text {
+  padding: 27px 0;
+}
 /* #endregion */
 
 /* #SUCCESS - Quotes and success stories*/
