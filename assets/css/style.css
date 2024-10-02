@@ -128,7 +128,13 @@ body {
 /* #endregion */
 
 /* #CTA - Subscription section*/
-.cta-section {}
+.cta-section {
+  background-image: url('../images/poster.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh;
+}
 /* #endregion */
 
 /* #FOOTER SECTION*/
@@ -165,6 +171,7 @@ body {
 /****************########################*****************/
 
 /* #RESPONSIVE STYLES */
+/* #tablet styles */
 @media (min-width: 768px) {
   .hero {
     background-image: url('../images/hero-tablet2.png');
@@ -173,7 +180,9 @@ body {
     background-repeat: no-repeat;
   }
 }
+/* #endregion */
 
+/* #desktop styles  */
 @media (min-width: 992px) {
   .hero {
     background-image: url('../images/hero-desktop2.png');
