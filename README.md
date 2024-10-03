@@ -58,7 +58,7 @@ Tested on all browsers and devices
 ## Credits
 	
  A special thanks to the article CSS Border-Image Property from Smashing Magazine, which provided valuable insights and inspiration for creating the background layout used in this project. 
- Link to the article - https://www.smashingmagazine.com/2024/01/css-border-image-property 
+ Link to the article - [Border Image Property](https://www.smashingmagazine.com/2024/01/css-border-image-property) 
 
 
 ## Contributing
