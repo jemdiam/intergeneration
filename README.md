@@ -1,5 +1,6 @@
 Intergeneration
 
+![screenshot of home image](https://ibb.co/cYpP6MX)
 Project Overview
 
 Intergeneration is a web project focused on promoting diversity, equity, and inclusion (DEI) with a specific emphasis on the value of hiring senior professionals in the tech industry. The platform demonstrates how intergenerational collaboration fosters creativity, enhances problem-solving, and leads to better product development.
