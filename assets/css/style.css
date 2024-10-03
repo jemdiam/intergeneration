@@ -63,6 +63,10 @@ body {
 .main-yellow {
   color: var(--main-yellow);
 }
+
+.text-bald-ig {
+  font-weight: 800;
+}
 /* #endregion */
 /****************########################*****************/
 
