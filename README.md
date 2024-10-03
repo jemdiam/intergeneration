@@ -4,7 +4,7 @@ Intergeneration is a web project focused on promoting diversity, equity, and inc
 
 This project showcases success stories, offers insights into the benefits of diverse teams, and provides tools like feedback and subscription forms to engage users and collect data.
 
-![screenshot of mockup](https://github.com/jemdiam/intergeneration/blob/main/assets/images/mockup-screenshot.png)
+[screenshot of mockup](https://github.com/jemdiam/intergeneration/blob/main/assets/images/mockup-screenshot.png)
 
 ## Features
 
@@ -38,11 +38,11 @@ cd intergeneration
 
 ## Project Board link 
 
-![link](https://github.com/users/jemdiam/projects/2
+[link](https://github.com/users/jemdiam/projects/2)
 
 ## Project Live Link
 
-![The live link to the project](https://jemdiam.github.io/intergeneration/
+[The live link to the project](https://jemdiam.github.io/intergeneration/)
 
 ## Testing 
 
