@@ -38,11 +38,11 @@ cd intergeneration
 
 ## Project Board link 
 
-[link](https://github.com/users/jemdiam/projects/2
+![link](https://github.com/users/jemdiam/projects/2
 
 ## Project Live Link
 
-[The live link to the project](https://jemdiam.github.io/intergeneration/
+![The live link to the project](https://jemdiam.github.io/intergeneration/
 
 ## Testing 
 
